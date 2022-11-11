@@ -40,8 +40,8 @@ function App() {
       <div className="container">
         {squares.map((val, index) => {
           return (
-            <Square 
-              key={Math.random().toString()} 
+            <Square
+              key={Math.random().toString()}
               setSquares={setSquares}
               index={index}
               squareValue={val}
